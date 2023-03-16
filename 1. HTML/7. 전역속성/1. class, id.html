@@ -49,14 +49,18 @@
 </head>
 <body>
 
-    <button class="btn">Join</button>
-    <button class="btn">Login</button>
-    <button class="btn">버튼</button>
+    <button id="join-btn" class="btn">Join</button>
+    <button class="btn btn-primary">Login</button>
+    <button class="btn btn-pink">버튼</button>
 
     <script>
 
-        document.getElementById('btn').onclick = function() {
+        document.getElementById('join-btn').onclick = function() {
             alert('버튼이 클릭됨!');
+        }
+
+        document.querySelector('.btn-primary').onclick = function(){
+            alert('로그인 버튼이 클릭됨!')
         }
 
     </script>
