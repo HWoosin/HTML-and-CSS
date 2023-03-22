@@ -1,0 +1,126 @@
+@import url(../../common.css);
+body{
+    background-color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: san-serif;
+}
+#wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+header{
+    background-color: orange;
+    color: white;
+}
+header h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+}
+header h1 span{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+header .stit{
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    color: black;
+}
+.container{
+    background-color: white;
+}
+.side-menu{
+    float: left;
+    background-color: white;
+    width: 15%;
+}
+.side-menu h3{
+    background-color: rgb(177, 3, 3);
+    color: white;
+    padding: 5px;
+}
+.side-menu ul{
+    padding: 10px 10px 100% 10px;
+}
+.side-menu ul li{
+    padding: 2px;
+}
+.side-menu a{
+    text-decoration: underline;
+}
+.side-menu li:hover{
+    border-bottom: 3px dotted black;
+}
+.main-content{
+    background-color: rgb(204, 202, 202);
+    width: 70%;
+    float: left;
+}
+.main-content .art-piece{
+    padding: 10px;
+}
+.main-content .title:hover{
+    text-decoration: underline;
+}
+.main-content .title{
+    background-color: navy;
+    color: white;
+    padding: 3px;
+}
+.banner{
+    margin: 0px 0px 0px 85%;
+}
+
+.banner h3{
+    font-family: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+.banner .all{
+    color: gray;
+    font-family: bold;
+    text-decoration: underline;
+    display: block;
+}
+.banner .love{
+    color: orange;
+    font-family: bold;
+    text-decoration: underline;
+    display: block;
+}
+.banner strong{
+    font-family: bold;
+}
+.banner ul li a{
+    text-decoration: underline;
+    display: block;
+}
+.banner ul li{
+    padding: 5px;
+}
+.banner .link{
+    font-weight: bold;
+    font-size: 15px;
+}
+.banner .link span{
+    font-weight: 400;
+    font-size: 15px;
+}
+footer{
+    background-color: navy;
+    color:white;
+    text-align: center;
+}
+footer a{
+    text-decoration: underline;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
